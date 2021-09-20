@@ -5,9 +5,11 @@ It was created from Visual Studio 2019 using ASP.NET Core 3.1 API project templa
 ## SQL Server database
 It is setup to use SQL Express.
 
+`
   "ConnectionString": {
     "LeaveRequestDB": "server=.\\SQLEXPRESS;database=LeaveRequestDB;Integrated Security=true;"
   },
+`
 
 Please create a database "LeaveRequestDB" on your SQL Express.
 
