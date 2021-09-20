@@ -14,17 +14,17 @@ Please create a database "LeaveRequestDB" on your SQL Express.
 ## Data migration
 The following command will apply migration to the target database.
 
-[Command line]
-dotnet ef database update
+`dotnet ef database update`
 
 Alternately you can generate migration script and run on your database.
 
-[Command Line]
-dotnet ef migrations script
+`dotnet ef migrations script`
 
 ## Build and Run
-dotnet build
-dotnet run
+
+`dotnet build`
+
+`dotnet run`
 
 ## References
 
