@@ -20,4 +20,6 @@ Alternately you can generate migration script and run on your database.
 [Command Line]
 dotnet ef migrations script
 
-
+## Build and Run
+dotnet build
+dotnet run
