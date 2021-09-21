@@ -43,7 +43,7 @@ namespace LeaveRequestAPI.Models
         public string RequestStatus { get; set; } // Pending, Approved
         [Required]
         public DateTime SubmitDate { get; set; }
-        public DateTime ApproveDate { get; set; }
+        public DateTime? ApproveDate { get; set; }
         [StringLength(25)]
         public string ApproveBy { get; set; }
 

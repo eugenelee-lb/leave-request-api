@@ -32,6 +32,7 @@ namespace LeaveRequestAPI
             services.AddDbContext<RepositoryContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:LeaveRequestDB"]));
             services.AddScoped<IEmployeeRepository<Employee>, EmployeeManager>();
             services.AddScoped<IEmployeeAccrualRepository<EmployeeAccrual>, EmployeeAccrualManager>();
+            services.AddScoped<IRequestRepository<LeaveRequest>, RequestManager>();
             services.AddControllers();
 
             setCORS(services);
